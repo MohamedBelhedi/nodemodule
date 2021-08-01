@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    min-height: 50vh;
+    justify-content: center;
+    margin:0;
+    text-align: center;
+}
+
+p{
+    color:aqua;
+    font-size: 15px;
+    break-before: auto;
+}
+
+footer{
+    min-height: 200vh;
+    color:brown;
+}
