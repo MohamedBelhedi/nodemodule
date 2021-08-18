@@ -12,7 +12,6 @@ const $messageformbuttton=document.querySelector('button')
 const $messages=document.querySelector('#message')
 
 // Templates
-
 const messageTemplate=document.querySelector('#message-template').innerHTML
 const locationMessageTemplate=document.querySelector('#location-message-template').innerHTML
 

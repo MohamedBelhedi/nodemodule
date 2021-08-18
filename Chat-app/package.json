@@ -10,11 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.12"
   },
   "dependencies": {
     "bad-words": "^3.0.4",
     "moment": "^2.29.1",
-    "socket.io": "^4.1.2"
+    "socket.io": "^4.1.2",
+    "update": "^0.7.4"
   }
 }

@@ -43,7 +43,7 @@ app.get('/wetter',(req,res)=>{
         if(error){
             return res.send({error})
         }
-        forecast(main.temp,(error,forecastData)=>{
+        forecast(temp,(error,forecastData)=>{
             if(error){
                 return res.send({error})
             }

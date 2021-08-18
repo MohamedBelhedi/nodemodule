@@ -9,7 +9,7 @@ const io=socketIO(server)
 const {generateMessage,generateLocationMessage}=require('./utils/messages')
 
 
-const port=process.env.PORT||3000
+const port=process.env.PORT||3001
 const publicDirectorypath=path.join(__dirname,'../public')
 app.use(express.static(publicDirectorypath))
 let count=0
@@ -54,4 +54,4 @@ server.listen(port,()=>{
 
 
 
-// module.exports=app
+module.exports=app
